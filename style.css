@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Satisfy";
-  src: url("../Fonts/Satisfy-Regular.ttf") format("truetype");
+  src: url("./fonts/Satisfy-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -141,7 +141,7 @@ button {
   padding: 10px 20px;
 }
 .footer1 {
-  background-color: #222;
+  background-color: #222222e8;
   color: white;
   display: flex;
   justify-content: space-between;
