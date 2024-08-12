@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "Satisfy";
+  src: url("../Fonts/Satisfy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url(./images/Banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 2rem 4rem;
+  background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+}
+.navbar div:nth-child(1) {
+  color: orangered;
+}
+.navbar div:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.quality-section {
+  background-image: url(./images/Thancos-Web-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 7rem;
+  color: white;
+}
+.title {
+  color: #a50018;
+}
+.quality {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 23rem;
+  font-size: 1.5em;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+}
+.store-section {
+  background: radial-gradient(ellipse, white, #bcf89e, #b2fc8d, #6fb14d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-family: "Satisfy", cursive;
+  color: white;
+  gap: 4rem;
+  padding: 80px 0px;
+  margin-top: 150px;
+}
+.name {
+  font-size: 1.5rem;
+}
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 20rem;
+  height: 37rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  line-height: 1.5em;
+  padding: 0 20px 20px 20px;
+}
+.card1 {
+  background-image: url(./images/Flavours.png);
+}
+.card2 {
+  background-image: url(./images/Stores.png);
+}
+.card3 {
+  background-image: url(./images/Franchise.png);
+}
+.suggest-section {
+  background-image: url(./images/Thancos-Web-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 40px 150px;
+}
+.suggest-section span {
+  align-self: flex-start;
+  font-family: "Satisfy", cursive;
+  font-size: 1.5rem;
+  color: white;
+}
+.suggest-section .textField {
+  outline: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 100%;
+  background: transparent;
+  padding: 20px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.suggest-section .textField::placeholder {
+  color: white;
+}
+button {
+  align-self: flex-end;
+  border: 2px solid #edf000;
+  color: #edf000;
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+.footer1 {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 150px;
+}
+.part {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Satisfy", cursive;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+}
+.footer2 {
+  font-family: sans-serif;
+  background-color: #171717;
+  font-weight: 700;
+  padding: 20px 150px;
+  color: rgb(65, 64, 64);
+  display: flex;
+  justify-content: space-between;
+}
